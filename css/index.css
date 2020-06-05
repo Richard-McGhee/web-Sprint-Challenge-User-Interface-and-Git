@@ -71,6 +71,34 @@ p {
     margin: 0 auto;
 }
 
+/* Header Styling from Richard-McGhee branch */
+
+.linkslogo{
+    display: flex;
+    align-items: center;
+    margin: 3.5% auto;
+}
+.nav-logo{
+    width: 20%;
+}
+.nav-links{
+    width: 80%;
+}
+.nav-links nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3.5%;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}
+.splash-image{
+    margin-bottom: 2%;
+}
+
+/* End of Header styling */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
