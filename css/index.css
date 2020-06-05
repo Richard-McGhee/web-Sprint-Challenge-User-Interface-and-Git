@@ -127,6 +127,14 @@ p {
     margin-bottom: 8%;
 }
 
+/* End of information section styling */
+/* bottom content styling */
+
+.bottom-content{
+    padding: 0 3%;
+    padding-bottom: 5%;
+}
+
 footer {
     width: 100%;
     background: black;
