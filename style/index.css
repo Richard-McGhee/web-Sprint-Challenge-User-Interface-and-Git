@@ -93,6 +93,13 @@ p {
     text-decoration: none;
     color: black;
 }
+.nav-links a:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    padding: 0 3%;
+    border-radius: 5px;
+}
 .splash-image{
     margin-bottom: 2%;
 }
@@ -206,4 +213,11 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+footer nav a:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    padding: 0 3%;
+    border-radius: 5px;
 }
