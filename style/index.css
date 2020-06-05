@@ -76,7 +76,7 @@ p {
 .linkslogo{
     display: flex;
     align-items: center;
-    margin: 4.5% auto;
+    margin: 3.5% auto;
 }
 .nav-logo{
     width: 20%;
@@ -84,8 +84,17 @@ p {
 .nav-links{
     width: 80%;
 }
+.nav-links nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3.5%;
+}
 .nav-links a{
     text-decoration: none;
+    color: black;
+}
+.splash-image{
+    margin-bottom: 2%;
 }
 
 /* End of Header styling */
@@ -130,6 +139,41 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/* Box styling from Richard-McGhee */
+
+.middle-content .boxes .box:first-child{
+    background: teal;
+}
+.middle-content .boxes .box:nth-child(2){
+    background: gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background: coral;
+}
+.middle-content .boxes .box:nth-child(5){
+    background: crimson;
+}
+.middle-content .boxes .box:nth-child(6){
+    background: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7){
+    background: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8){
+    background: hotpink;
+}
+.middle-content .boxes .box:nth-child(9){
+    background: indigo;
+}
+.middle-content .boxes .box:last-child{
+    background: dodgerblue;
+}
+
+/* End */
 
 .bottom-content {
     display: flex;
